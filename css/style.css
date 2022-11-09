@@ -54,10 +54,11 @@ body {
 	width: 13.3333333333%;
 }
 .three.columns {
-	width: 100%;
-	display: inline-block;
-   
+	width: 25%;
+	height: 100%;
+	float: inline-block;
 }
+
 .four.columns {
 	width: 30.6666666667%;
 }
@@ -87,7 +88,7 @@ body {
 	margin-left: 0;
 }
 .one-third.column {
-	width: 30.6666666667%;
+	width: 100%;
 }
 .two-thirds.column {
 	width: 65.3333333333%;
@@ -150,6 +151,7 @@ h1 {
 	font-size: 4.0rem;
 	line-height: 1.2;
 	letter-spacing: -.1rem;
+	display: block;
 }
 h2 {
 	font-size: 3.6rem;
@@ -162,6 +164,7 @@ h3 {
 	letter-spacing: -.1rem;
 }
 h4 {display: inline-block;
+	text-align: center;
 	font-size: 2.4rem;
 	line-height: 1.35;
 	letter-spacing: -.08rem;
@@ -300,7 +303,7 @@ header {
 	z-index: 999;
 	width: 100%;
 	padding-top: 17px;
-	background: none;
+	background: 100;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	opacity: 100;
@@ -314,11 +317,11 @@ header {
 }
 }
 .open-nav {
-	max-height: 400px !important;
+	max-height: 400px;
 }
 .sticky {
 	background-color: #ffffff;
-	opacity: 1;
+	opacity: 100;
 	top: 0px;
 }
 nav {
@@ -542,7 +545,7 @@ opacity: 0;
 .image {
 	background-color: #5a5a5a;
 	width: 100%;
-	height: auto;
+	height: 240px;
 	margin-left: auto;
 	margin-right: auto;
 	transition: .5s;
@@ -551,29 +554,11 @@ opacity: 0;
 	opacity: 0.6;
 	transition: .3s;
 	background-image: url(../images/hoverbg.png);
-	background-repeat: no-repeat;
+	background-repeat: no-rethe more information teampeat;
 	background-position: center;
 }
 
-/* Testimonial Section
-********************************************************************* */
-#testimonial {
-	background-color: #F5F5F5;
-	padding: 100px 0 100px 0;
-}
-.quoteLoop {
-	height: auto;
-	width: 100%;
-	margin: 0 auto;
-	position: relative;
-}
-.quote {
-	margin: 10px 30px;
-	height: inherit;
-	top: 0px;
-	display: none;
-	text-align: center;
-}
+
 /* Contact Section
 ********************************************************************* */
 #contact {
@@ -611,8 +596,34 @@ input[type="submit"] {
 	cursor: pointer;
 	box-sizing: border-box;
 }
+
 input[type="submit"]:hover {
 	background: #6de55d;
+	text-decoration: none;
+}
+
+input[type="submit1"] {
+	display: inline-block;
+	height: auto;
+	padding: auto;
+	color: #ffffff;
+	text-align: center;
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background: #6de55d;
+	border-radius: 0.5px;
+	border: 0;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+input[type="submit1"]:hover {
+	background: #000000;
 	text-decoration: none;
 }
 /* Footer Section
@@ -635,6 +646,7 @@ footer p {
 	font-size: 34px;
 	color: rgba(255, 255, 255, 0.7);
 }
+
 /* Lists
 ********************************************************************* */
 ul {
