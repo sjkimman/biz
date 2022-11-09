@@ -88,7 +88,7 @@ body {
 	margin-left: 0;
 }
 .one-third.column {
-	width: 100%;
+	width: flex;
 }
 .two-thirds.column {
 	width: 65.3333333333%;
